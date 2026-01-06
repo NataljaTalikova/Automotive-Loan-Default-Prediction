@@ -1,4 +1,4 @@
-# ExponentialPro: local machine hyperparameters tuning attempt
+# Automotive Loan Default Prediction: local machine hyperparameters tuning attempt
 
 In this part of my university project, I added histograms for all features and discovered that not only was the target variable (binary) unbalanced, but almost every selected feature was as well. Therefore, applying SMOTE to the sample was the correct decision.
 
