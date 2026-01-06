@@ -11,6 +11,7 @@ The goal is to learn and optimize three classifying algorithms at an intermediat
 - **Objective:** Predict loan default (binary outcome)
 - **Business context:** Credit risk assessment, where false negatives (missed defaults) are costly
 - **Challenge:** Mixed data types, heavy class imbalance, noisy financial features
+![Class imbalance in the target variable (loan default).](BinClas23%20report/Loan_default_distribution.png)
 
 ---
 
@@ -45,9 +46,14 @@ Hyperparameter tuning notebooks (Optuna + XGBoost) are kept in the `experiments/
 ## Key Results
 
 - **XGBoost achieves AUC-ROC ≈ 0.80**
+
+![](BinClas23%20report/XGB_ROC.png)
+
 - Substantial performance improvement relative to linear and kernel-based baselines
 - Feature importance analysis confirms the relevance of engineered variables
 
+ ![](BinClas23%20report/XGB_features_importance_output.png)
+ 
 ---
 
 ## Repository Contents
