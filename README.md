@@ -23,7 +23,7 @@ The goal is to learn and optimize three classifying algorithms at an intermediat
 Logistic Regression and SVM are used as **diagnostic and comparative baselines**.  
 **XGBoost is the primary model**, reflecting its emergence as a high-performing algorithm in tabular credit-risk problems after the original hackathon period. 
 
-Hyperparameter tuning notebooks (Optuna + XGBoost) are kept in the `experiments/optuna-xgb-tuning` branch.
+Hyperparameter tuning notebooks (Optuna + XGBoost) are kept in the `Experiments-Folding,-Feature-Target-Hyst,-Lasso-Regression-with-Search-Grid` branch.
 ---
 
 ## Methodology Highlights
